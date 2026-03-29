@@ -30,7 +30,7 @@ I got tired of context switching.
 
 Running multiple brands means your brain is always split — you're thinking strategy while writing copy while checking what went out last Tuesday. Every agency I looked at wanted a retainer for work I knew I could systematize. So I built the department I actually wanted.
 
-This is a complete marketing department run by AI agents. Nine specialists that know their jobs, hand off to each other, and get smarter every cycle. It runs on [Claude](https://anthropic.com), uses [Notion](https://notion.so) as its operational nervous system, [Obsidian](https://obsidian.md) as its long-term brain, and a set of automations that mean the intelligence loop runs without me touching it every month.
+This is my content marketing department run by AI agents. Nine specialists that know their jobs, hand off to each other, and get smarter every cycle. It runs on [Claude](https://anthropic.com), uses [Notion](https://notion.so) as its operational nervous system, [Obsidian](https://obsidian.md) as its long-term brain, and a set of automations that mean the intelligence loop runs without me touching it every month.
 
 This isn't a prompt wrapper. It's architecture.
 
