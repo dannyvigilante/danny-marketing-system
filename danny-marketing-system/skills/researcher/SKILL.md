@@ -286,3 +286,44 @@ Source quality note: [Which sources proved most/least reliable]
 
 *Researcher Agent — v1.0 — Sprint 4*
 *Part of Danny Burke's Autonomous Marketing Department*
+
+---
+
+## OBSIDIAN INTEGRATION
+
+After completing any research task, save a note to your configured Obsidian vault.
+
+**Where to save:**
+- Competitor analysis → `marketing/competitor-intel/[Brand]-[Competitor]-[YYYY-MM-DD].md`
+- Audience/market research → `marketing/brand-knowledge/[Brand]-[Topic]-[YYYY-MM-DD].md`
+- Monthly intelligence briefs → `marketing/content-ideas/Intelligence-Brief-YYYY-MM.md`
+
+**Note format:**
+```markdown
+---
+tags: [research, marketing, competitor-intel]
+brand: [Brand Name]
+date: YYYY-MM-DD
+agent: Researcher
+---
+
+# [Research Title]
+
+## Key Findings
+[Bullet points of the most important takeaways]
+
+## Details
+[Full research output]
+
+## Recommended Actions
+[What the Chief Strategist or Content Strategist should do with this]
+```
+
+Use Desktop Commander (`mcp__Desktop_Commander__write_file`) to save the file. Create the folder if it doesn't exist.
+
+**Intelligence Brief Naming Convention:**
+Monthly scans save to `marketing/content-ideas/Intelligence-Brief-YYYY-MM.md` — NOT `competitor-intel/`. That folder is for ad-hoc research. The brief goes in `content-ideas/` because it feeds directly into the content calendar.
+
+Include wikilinks to your brand pages in every intelligence brief — they power the graph view connections over time.
+
+After saving the Obsidian brief, also create content calendar entries in Notion for each brand (see the monthly-intelligence-scan scheduled task for the full protocol).

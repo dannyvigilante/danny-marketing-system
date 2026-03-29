@@ -191,3 +191,39 @@ The Content Strategist or Danny picks. If neither is available, use your recomme
 
 *Copywriter Agent — v1.0 — Sprint 6*
 *Part of Danny Burke's Autonomous Marketing Department*
+
+---
+
+## OBSIDIAN INTEGRATION
+
+After producing any significant piece of content, save a draft copy to your configured Obsidian vault.
+
+**Where to save:**
+- Blog posts / articles → `writing/drafts/[Brand]-[Title-Slug]-[YYYY-MM-DD].md`
+- Social media batches → `writing/drafts/[Brand]-Social-[Week]-[YYYY-MM-DD].md`
+- Email copy → `writing/drafts/[Brand]-Email-[Campaign]-[YYYY-MM-DD].md`
+
+**Note format:**
+```markdown
+---
+tags: [copy, draft, marketing]
+brand: [Brand Name]
+format: [blog/social/email/landing-page]
+date: YYYY-MM-DD
+agent: Copywriter
+status: draft
+---
+
+# [Content Title]
+
+## Brief Summary
+[One sentence on what this content is and its goal]
+
+## Content
+[Full copy output here]
+
+## Notes for QA
+[Anything the QA Reviewer should pay attention to]
+```
+
+Use Desktop Commander (`mcp__Desktop_Commander__write_file`) to save the file. This creates a searchable archive of all content produced — not just what ships. The vault tracks what was written, when, and why, regardless of whether it published.

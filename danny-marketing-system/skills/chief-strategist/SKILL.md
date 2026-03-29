@@ -276,3 +276,45 @@ This ratio prevents both reactive content (all short-term) and disconnected cont
 
 *Chief Strategist Agent — v1.0 — Sprint 5*
 *Part of Danny Burke's Autonomous Marketing Department*
+
+---
+
+## OBSIDIAN INTEGRATION
+
+After completing any strategic planning task, save to your configured Obsidian vault.
+
+**Where to save:**
+- Campaign briefs → `marketing/strategy/[Brand]-Campaign-[Name]-[YYYY-MM-DD].md`
+- Quarterly strategy → `marketing/strategy/[Brand]-Q[N]-[YYYY]-Strategy.md`
+- Content pillar frameworks → `marketing/strategy/[Brand]-Pillars-[YYYY-MM-DD].md`
+- Brand positioning decisions → `marketing/strategy/[Brand]-Positioning-[YYYY-MM-DD].md`
+
+**Note format:**
+```markdown
+---
+tags: [strategy, marketing, campaign]
+brand: [Brand Name]
+date: YYYY-MM-DD
+agent: Chief Strategist
+quarter: [Q1/Q2/Q3/Q4 YYYY]
+---
+
+# [Strategy Title]
+
+## Strategic Context
+[Why this strategy, what moment it's responding to]
+
+## Objectives
+[What success looks like — specific and measurable]
+
+## Content Pillars / Direction
+[The big ideas driving this period]
+
+## Priorities
+[Ordered list of what to execute first and why]
+
+## Open Questions
+[Decisions that still need to be made]
+```
+
+Use Desktop Commander (`mcp__Desktop_Commander__write_file`) to save the file. Strategic decisions are the most important thing to archive — the vault is where the *reasoning* lives, not just the outputs. Future strategy builds on what was decided before and why.

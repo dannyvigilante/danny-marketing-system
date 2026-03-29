@@ -74,10 +74,10 @@ claude "Write three social media posts about mindful morning routines" --skill c
 Switch between brands by specifying the config:
 
 ```bash
-# Ritual Wellness Club
+# [Your Brand 1]
 claude "Create a content calendar for November" --brand ritual-wellness-club
 
-# Passing Notes (memoir marketing)
+# [Your Brand 2]
 claude "Write a LinkedIn post about transracial adoption" --brand passing-notes
 ```
 

@@ -14,7 +14,7 @@
 | Status | Select | New, Assigned, In Progress, In Review, Revision Needed, Approved, Published, Complete |
 | Assigned Agent | Select | Ops Manager, Chief Strategist, Content Strategist, Researcher, Analyst, Copywriter, SEO Specialist, QA Reviewer, Channel Manager |
 | Priority | Select | Critical, High, Medium, Low |
-| Brand | Select | Ritual Wellness Club, Passing Notes |
+| Brand | Select | [Your Brand 1], [Your Brand 2] |
 | Campaign | Relation | → Campaign Tracker |
 | Due Date | Date | — |
 | Output Link | URL | — |
@@ -36,7 +36,7 @@
 |----------|------|---------|
 | Campaign Name | Title | — |
 | Status | Select | Planning, Active, Paused, Complete, Archived |
-| Brand | Select | Ritual Wellness Club, Passing Notes |
+| Brand | Select | [Your Brand 1], [Your Brand 2] |
 | Start Date | Date | — |
 | End Date | Date | — |
 | Objective | Rich Text | — |
@@ -57,7 +57,7 @@
 |----------|------|---------|
 | Content Title | Title | — |
 | Status | Select | Planned, Drafting, In Review, Approved, Scheduled, Published |
-| Brand | Select | Ritual Wellness Club, Passing Notes |
+| Brand | Select | [Your Brand 1], [Your Brand 2] |
 | Channel | Select | Blog, Instagram, LinkedIn, Email, Twitter/X, TikTok, Pinterest |
 | Publish Date | Date | — |
 | Content Type | Select | Blog Post, Social Post, Email, Landing Page, Video Script, Infographic |
@@ -82,7 +82,7 @@
 | Entry Title | Title | — |
 | Agent | Select | Ops Manager, Chief Strategist, Content Strategist, Researcher, Analyst, Copywriter, SEO Specialist, QA Reviewer, Channel Manager |
 | Learning Type | Select | What Worked, What Didn't, Brand Insight, Process Improvement, Quality Pattern |
-| Brand | Select | Ritual Wellness Club, Passing Notes, System-Wide |
+| Brand | Select | [Your Brand 1], [Your Brand 2], System-Wide |
 | Details | Rich Text | — |
 | Related Task | Relation | → Task Pipeline |
 | Created | Created Time | — |
@@ -101,7 +101,7 @@
 | Property | Type | Options |
 |----------|------|---------|
 | Entry Title | Title | — |
-| Brand | Select | Ritual Wellness Club, Passing Notes |
+| Brand | Select | [Your Brand 1], [Your Brand 2] |
 | Category | Select | Brand Guidelines, Competitive Intel, Audience Research, Performance Data, Strategic Decision, Asset Reference |
 | Source Agent | Select | Chief Strategist, Researcher, Analyst, QA Reviewer, Manual Entry |
 | Content | Rich Text | — |

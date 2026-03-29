@@ -259,3 +259,40 @@ is not a target. If you can't name the segment, the brief isn't ready.
 
 *Content Strategist Agent — v1.0 — Sprint 5*
 *Part of Danny Burke's Autonomous Marketing Department*
+
+---
+
+## OBSIDIAN INTEGRATION
+
+After completing any editorial planning or content briefing task, save to your configured Obsidian vault.
+
+**Where to save:**
+- Content briefs → `marketing/content-ideas/[Brand]-Brief-[Slug]-[YYYY-MM-DD].md`
+- Editorial calendars → `marketing/content-ideas/[Brand]-Calendar-[Month-YYYY].md`
+- Content pillars / strategy docs → `marketing/content-ideas/[Brand]-Pillars-[YYYY-MM-DD].md`
+
+**Note format:**
+```markdown
+---
+tags: [content-strategy, editorial, marketing]
+brand: [Brand Name]
+date: YYYY-MM-DD
+agent: Content Strategist
+---
+
+# [Brief or Plan Title]
+
+## Objective
+[What this content is meant to do]
+
+## Content Items
+[List of pieces, formats, and angles]
+
+## Key Messages
+[Core ideas each piece should hit]
+
+## Notes for Copywriter
+[Specific direction, tone notes, or constraints]
+```
+
+Use Desktop Commander (`mcp__Desktop_Commander__write_file`) to save the file. Content briefs in the vault give a searchable record of every editorial decision — what was planned, why, and what the brief said at the time.

@@ -345,3 +345,41 @@ Data quality note: [Source reliability observations]
 
 *Analyst Agent — v1.0 — Sprint 4*
 *Part of Danny Burke's Autonomous Marketing Department*
+
+---
+
+## OBSIDIAN INTEGRATION
+
+After completing any analysis task, save a note to your configured Obsidian vault.
+
+**Where to save:**
+- Campaign performance → `marketing/campaign-notes/[Brand]-[Campaign]-[YYYY-MM-DD].md`
+- Weekly/monthly reports → `marketing/campaign-notes/[Brand]-Report-[Period].md`
+- Audience insights → `marketing/brand-knowledge/[Brand]-Audience-Insights-[YYYY-MM-DD].md`
+
+**Note format:**
+```markdown
+---
+tags: [analytics, marketing, performance]
+brand: [Brand Name]
+date: YYYY-MM-DD
+agent: Analyst
+period: [Time period covered]
+---
+
+# [Report Title]
+
+## Performance Summary
+[Top-line numbers and what they mean]
+
+## What Worked
+[Highlights with supporting data]
+
+## What Didn't
+[Underperformers and hypotheses]
+
+## Recommendations
+[Prioritized next actions for the team]
+```
+
+Use Desktop Commander (`mcp__Desktop_Commander__write_file`) to save the file. Every analysis gets logged — this is how the system builds a performance record over time that compounds into institutional knowledge.
